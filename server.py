@@ -2,7 +2,7 @@ from bottle import route, run
 import json
 
 
-@route('/ahmed3lanamedaddo')
+'''@route('/ahmed3lanamedaddo')
 def hello():
     return json.dumps({"data": [
         {"action": "JasperSitting", "actor": "Jasper", "obj": "chair"},
@@ -27,6 +27,6 @@ def hello():
 def hello():
     # return json.dumps({"objects": ["Jasper"], "scene": ["street"]})
     return json.dumps({"characters": ["Jasper",  "Pearl"], "objects": ["chair"], "scene": ["street"]})
-
+'''
 
 run(host='localhost', port=8080, debug=True)
