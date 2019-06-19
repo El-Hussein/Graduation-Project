@@ -29,4 +29,4 @@ def hello():
     return json.dumps({"characters": ["Jasper",  "Pearl"], "objects": ["chair"], "scene": ["street"]})
 '''
 
-run(host='localhost', port=8080, debug=True)
+run( port=8080, debug=True)
